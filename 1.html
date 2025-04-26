@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowTask - Smart Workflow Automation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f8fafc;
+      color: #333;
+      padding-left: 1cm;
+      padding-right: 1cm;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #6a5ee5, #3f68f1);
+      color: white;
+      border-bottom: 2px solid #ffffff;
+    }
+    .hero h1 {
+      font-size: 3.5em;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.25em;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+    .contact-info {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    .contact-info a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .contact-info a:hover {
+      color: #fbbf24;
+    }
+    .bottom-section {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      padding: 60px 0;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .bottom-section .feature,
+    .bottom-section .about,
+    .bottom-section .testimonials {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    }
+    .bottom-section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .bottom-section p {
+      font-size: 1.2em;
+      color: #374151;
+      line-height: 1.6;
+    }
+    .testimonials p {
+      font-size: 1.2em;
+      color: #374151;
+    }
+    footer {
+      background-color: #4f46e5;
+      color: white;
+      padding: 20px 20px;
+      text-align: center;
+      font-size: 1em;
+      border-top: 2px solid #ffffff;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #fbbf24;
+    }
+    section {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #e5e7eb;
+    }
+    section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    section p {
+      font-size: 1.2em;
+      color: #374151;
+    }
+
+    /* For responsiveness, adjust grid layout on smaller screens */
+    @media (max-width: 768px) {
+      .bottom-section {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .bottom-section {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>FlowTask</h1>
+    <p>Smart workflow automation to help your team collaborate and get work done faster, smarter, and more efficiently.</p>
+    <div class="contact-info">
+      <p>Want to learn more? Feel free to reach out via email:</p>
+      <p><a href="mailto:weiflowtaskapp@b7m.live">weiflowtaskapp@b7m.live</a></p>
+    </div>
+  </section>
+
+  <section class="bottom-section">
+    <!-- Feature 1 -->
+    <div class="feature">
+      <h2>⚡ Intelligent Task Allocation</h2>
+      <p>Automatically assign tasks based on priority, team member capabilities, and progress, improving overall productivity.</p>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature">
+      <h2>📅 Visual Workflow Tracking</h2>
+      <p>Track task status with Kanban boards, supporting drag-and-drop features and seamless team collaboration.</p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature">
+      <h2>🤖 AI-Powered Collaboration Assistant</h2>
+      <p>AI generates to-do lists and weekly reports, helping streamline communication and saving valuable time.</p>
+    </div>
+    <!-- About FlowTask -->
+    <div class="about">
+      <h2>About FlowTask</h2>
+      <p>FlowTask is an AI-driven task and workflow automation tool developed by an independent founder. We aim to provide remote teams and startups with efficient automation solutions. We are seeking like-minded collaborators to build something impactful.</p>
+    </div>
+    <!-- User Testimonials -->
+    <div class="testimonials">
+      <h2>What Our Users Are Saying</h2>
+      <p><em>“FlowTask transformed our workflow! It’s like having a virtual assistant for our entire team.”</em><br>- Jane Doe, CEO of StartupX</p>
+      <p><em>“The task automation is a game-changer. My team’s productivity skyrocketed!”</em><br>- John Smith, Founder of TechWorld</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 FlowTask. Built by an independent founder. | Contact: <a href="mailto:weiflowtaskapp@b7m.live">weiflowtaskapp@b7m.live</a></p>
+  </footer>
+</body>
+</html>
+
